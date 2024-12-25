@@ -1,5 +1,3 @@
-# Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
-
 ## AIM:
 To write a program to predict the marks scored by a student using the simple linear regression model.
 
@@ -8,10 +6,10 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import the required packages.
+2.Import the dataset to operate on.
+3.Split the dataset.
+4.Predict the required output.# Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
 
 ## Program:
 ```
@@ -20,7 +18,6 @@ Program to implement the simple linear regression model for predicting the marks
 Developed by: k.Manojkumar
 RegisterNumber: 24900281
 */
-```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -62,10 +59,11 @@ print('MAE = ',mae)
 
 rmse=np.sqrt(mse)
 print('RMSE = ',rmse)
-
+```
 
 ## Output:
 ![simple linear regression model for predicting the marks scored](sam.png)
+
 ![Screenshot (17)](https://github.com/user-attachments/assets/4a9dc6ef-c2be-49e2-86cb-974379ea55df)
 
 
